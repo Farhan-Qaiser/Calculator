@@ -1,4 +1,6 @@
 let currentString = "";
+let multiply = document.getElementById("multiply")
+multiply.innerHTML = "\u00d7"
 
 function appendNumber(number) {
     currentString += number;
